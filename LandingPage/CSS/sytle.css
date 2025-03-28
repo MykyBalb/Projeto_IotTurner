@@ -21,30 +21,10 @@ body, html {
     flex-direction: column;
 }
 
-.divLogo {
-    margin-left: 5%;
-    padding-top: 0.5%;
-    transform: scale(1.7);
-}
-
 .imgLogo {
-    width: 70px;
+    width: 20%;
+    transform: scale(2);
 }
-
-#logoO {
-    z-index: 2;
-    position: absolute;
-    right: 27%;
-    animation: rotateLogo 10s linear infinite;
-}
-
-@keyframes rotateLogo {
-    from {
-        transform: rotate(0deg);
-    } to {
-        transform: rotate(360deg);
-    }
-  }
 
 /* Barra superior */
 .top-bar {
@@ -64,7 +44,6 @@ body, html {
     justify-content: center;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 2px -2px 2px black;
     transition: 0.5s;
 }
 
@@ -92,10 +71,10 @@ body, html {
     font-weight: 600;
 }
 
-h1 {
-    color: #333;
-    font-size: 28px;
-    margin: 10px 0;
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 20%;
 }
 
 .description {
