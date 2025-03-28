@@ -22,8 +22,27 @@ body, html {
 }
 
 .imgLogo {
-    width: 20%;
+    padding: 20px;
+    width: 25%;
+    transform: scale(4);
+}
+
+.iconLogin {
+    color: inherit;
+    text-decoration: none;
     transform: scale(2);
+    padding: 10px;
+    transition: 1s;
+}
+
+.iconLogin:hover{
+    transform: scale(2.2);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-right: 20%;
 }
 
 /* Barra superior */
@@ -69,12 +88,6 @@ body, html {
     color: #4bb989;
     font-size: 14px;
     font-weight: 600;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    margin-right: 20%;
 }
 
 .description {
