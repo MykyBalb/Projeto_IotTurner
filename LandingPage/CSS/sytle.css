@@ -37,7 +37,7 @@ body, html {
 }
 
 .iconLogin:hover{
-    transform: scale(2.2);
+    transform: scale(2.5);
 }
 
 .navbar {
@@ -72,7 +72,7 @@ body, html {
 }
 
 .enroll-btn:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
    
 /* Conteúdo principal */
